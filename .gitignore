@@ -1,4 +1,6 @@
 *.suo
 *.cache
+*.csproj
+*.csproj.user
 **/obj/
 **/bin/
