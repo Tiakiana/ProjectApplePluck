@@ -70,10 +70,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< HEAD
     <Compile Include="Persistent\Database.cs" />
     <Compile Include="Views\ViewSale.xaml.cs">
       <DependentUpon>ViewSale.xaml</DependentUpon>
     </Compile>
+=======
+    <Compile Include="Sale.cs" />
+>>>>>>> 27238cb453af295a573f83995acf101b70c9719f
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
