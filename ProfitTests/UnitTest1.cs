@@ -9,7 +9,7 @@ namespace ProfitTests
         [TestMethod]
         public void TestMethod1()
         {
-            ProfitCalc pc = new ProfitCalc();
+            ProfitCalculator pc = new ProfitCalculator();
             pc.income = 200;
             pc.expenses = 100;
 
@@ -20,7 +20,7 @@ namespace ProfitTests
         [TestMethod]
         public void TestMethod1()
         {
-            ProfitCalc pc = new ProfitCalc();
+            ProfitCalculator pc = new ProfitCalculator();
             pc.income = 200;
             pc.expenses = -100;
 
@@ -31,7 +31,7 @@ namespace ProfitTests
         [TestMethod]
         public void TestMethod1()
         {
-            ProfitCalc pc = new ProfitCalc();
+            ProfitCalculator pc = new ProfitCalculator();
             pc.income = 200.6543;
             pc.expenses = 100.234;
 
@@ -41,7 +41,7 @@ namespace ProfitTests
         }
         public void TestMethod1()
         {
-            ProfitCalc pc = new ProfitCalc();
+            ProfitCalculator pc = new ProfitCalculator();
             pc.income;
             pc.expenses;
 
